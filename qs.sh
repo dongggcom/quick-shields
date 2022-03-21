@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-DEFAULT_SHIELDS=""
-
-# label color
-COLORS=""
-
 ###
 # Dye font
 #
@@ -44,6 +39,7 @@ tty_bg_cyan="$(tty_universal 46)"        # cyan
 
 # select which your shields are reply to the query: 
 reply_to_query() {
+    echo " ";
     echo "[1] version,download,license"
     echo " "
     echo "Enter default to [1]\n"
